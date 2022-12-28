@@ -1,0 +1,60 @@
+body {
+    background-image: url("https://images.wallpapersden.com/image/download/4k-cool-2020-art_bGdla2aUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+nav{
+    display: inline;
+    padding-left: 470px;
+}
+h1{
+    color: orangered;
+    font-size: 35px;
+    font-style: italic;
+    text-align: center;
+    text-decoration:dashed;
+}
+p{
+    color:whitesmoke ;
+    font-style: bold ;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+h2{
+    text-align: center;
+    color: azure;
+
+}
+h3{
+    color: azure;
+}
+audio{
+    align-items: center;
+}
+.center{
+    display: block;
+    margin-left: 620px;
+    margin-right: auto;
+    width: 10%;
+}
+.copyright{
+    text-align: center;
+    border: 5px ridge orange;
+}
+.audio-icon{
+    align-items: center;
+}
+.border{
+
+}
+.box{
+    display: inline-block;
+}
+a:link{
+    color: rgb(43, 61, 226);
+}
