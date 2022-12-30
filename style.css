@@ -1,22 +1,29 @@
 body {
-    background-image: url("https://images.wallpapersden.com/image/download/4k-cool-2020-art_bGdla2aUmZqaraWkpJRmbmdlrWZlbWU.jpg");
+    background-image: url("wallpaper2.jpg");
     background-size: 1920px 1080px;
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
 nav{
     display: inline;
-    padding-left: 470px;
+    
+    
 }
-h1{
-    color: orangered;
+.aziz{
+    border-radius: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.portfolio{
+    color: rgb(0, 215, 223);
     font-size: 35px;
     font-style: italic;
     text-align: center;
     text-decoration:dashed;
 }
-p{
-    color:whitesmoke ;
+.aboutme{
+    color:rgba(10, 10, 10, 0.897) ;
     font-style: bold ;
     font-size: 20px;
     padding-left: 50px;
@@ -25,16 +32,25 @@ p{
     padding-bottom: 20px;
 
 }
-h2{
-    text-align: center;
-    color: azure;
+.studies{
+    color: rgba(0, 0, 0, 0.993);
+    font-style: bold ;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+.title{
+   text-align: center;
+    color: rgba(111, 55, 148, 0.932);
 
 }
 h3{
-    color: azure;
-}
-audio{
-    align-items: center;
+    padding-left: 120px;
+    padding-top: 6%;
+    color: rgba(34, 131, 175, 0.767);
 }
 .center{
     display: block;
@@ -44,17 +60,50 @@ audio{
 }
 .copyright{
     text-align: center;
-    border: 5px ridge orange;
+   
 }
-.audio-icon{
-    align-items: center;
+.blocks{
+    display:flex;
+    
 }
-.border{
 
+.facebook:visited{
+    color: rgb(43, 61, 226);
+}
+.instagram:visited{
+    color: rgb(187, 30, 127);
+}
+.social{
+    display: flex;
+    margin-top: 7%;
+    margin-left: 550px;
+}
+.logo{
+    height: 20px;
+    width: 20px;
 }
 .box{
-    display: inline-block;
+    border: 5px inset rgb(212, 167, 182);
+    margin-left: 10px;
+    background-color: transparent;
+    border-radius: 20px;
 }
-a:link{
-    color: rgb(43, 61, 226);
+.contact{
+    display: flex;
+}
+.input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(231, 231, 231);
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: transparent;
+}
+.msg{
+    box-shadow: 10%;
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid rgb(231, 231, 231);
 }
